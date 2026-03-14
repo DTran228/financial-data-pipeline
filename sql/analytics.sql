@@ -28,6 +28,8 @@ Financial insights / dashboard-ready outputs
 -- Purpose:
 -- Quickly inspect the most recent market records in the warehouse.
 
+CREATE DATABASE finance_db;
+
 SELECT
     date,
     ticker,
